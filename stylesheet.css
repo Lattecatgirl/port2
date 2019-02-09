@@ -17,11 +17,10 @@ background-color: #ddd;
 color: black;
 }
 
-<style type="text/css">
-    .jumbotron {
-      margin-top: 20px;
-      background-image: url("https://github.com/Lattecatgirl/port2/blob/master/watercolor%20hawaiian%20sunset.jpg?raw=true");
-      background-size: cover;
-      color: white;
+.jumbotron {
+  margin-top: 20px;
+  background-image: url("https://github.com/Lattecatgirl/port2/blob/master/ombre-rose.jpg?raw=true");
+  background-size: cover;
+  color: white;
 }
   
