@@ -11,14 +11,61 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
  
 </head>
+ 
+ <style>
+  * {
+   box-sizing: border-box;
+  }
+  
+input[type=text], select, textarea {
+ width: 100%;
+ padding;12px;
+ border:1px solid #ccc;
+ margin-top: 6px;
+ margin-bottom:16px;
+ resize: vertical;
+  }
+  input[type=submit] {
+   background-color: white;
+   padding: 12px 20px;
+   border: none;
+   cursor: pointer;
+  }
+  input[type=submit]:hover {
+   background-color: #45a049;
+  }
+.container {
+   border-radius: 5px;
+   background-color:#f2f2f2;
+   padding: 10px;
+  }
+.column {
+ float: left;
+ width: 50%;
+ margin-top: 6px;
+ padding: 20px;
+  }
+.row:after {
+ content: "";
+ display: table;
+ clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+   .column, input[type=submit] {
+    margin-top: 0;
+   }
+  }
+ </style>
+ 
+<body>
  <div class="sidenav">
   <a href="#home"> Home </a>
   <a href="#lattecatgirl"> Lattecatgirl </a>
   <a href="#Rebecca"> Rebecca </a>
   <a href="#Naomi"> Naomi </a>
 </div>
-  
-
+ 
  <div id="mySidenav" class="sidenav">
   <a href="https://lattecatgirl.github.io/port2/books.html" id="Home">Home</a>
   <a href="https://lattecatgirl.github.io/portfolio/lattecatgirl.html" id="Lattecatgirl">Lattecatgirl</a>
